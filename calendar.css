@@ -1,0 +1,32 @@
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    color: coral;
+    grid-template-rows: 1em;
+    gap: 15px;
+    font-weight: bold;
+   height: 50%; 
+    
+    
+    
+   
+}
+.date, .day{
+   background-color: rgb(100, 128, 151);
+    padding: 10px;
+    border-radius: 10px;
+   margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.day{
+    height: 40%;
+}
+.month-name{
+    display: flex;
+    justify-content: center;
+    color: crimson;
+}

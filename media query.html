@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+           
+           gap: 10px;
+            
+        }
+        .food{
+            /* border: 2px solid green; */
+            border-radius: 10px;
+            padding: 5px;
+          
+          
+        }
+        .food img{
+            border-radius: 10px;
+           
+        }
+        .food button{
+            background-color: rgb(34, 34, 206);
+            border-radius: 5px;
+           
+        }
+        
+       @media screen and (max-width:576px){
+        .container{
+          grid-template-columns: repeat(1, 1fr);  
+        }
+        .food{
+            background-color: aqua;
+        }
+        
+       }
+       @media screen and (min-width: 577px) and (max-width: 992px){
+        .container{
+          grid-template-columns: repeat(2, 1fr);  
+        }
+        .food{
+            background-color: green;
+        }
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-1</h3>
+            <p>Price: $100</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error adipisci laboriosam id quas est quam delectus fugiat voluptas saepe quod?</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-2</h3>
+            <p>Price: $200</p>
+            <p>Nisi facilis adipisci ipsam eveniet. Ipsum distinctio maxime itaque recusandae esse, perspiciatis, aliquam culpa tenetur hic optio necessitatibus quibusdam cum?</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-3</h3>
+            <p>Price: $300</p>
+            <p>Rerum quis quaerat accusantium fuga nihil! Quasi accusamus placeat cupiditate temporibus eaque! Ipsum quibusdam mollitia placeat reprehenderit debitis eligendi accusamus?</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-4</h3>
+            <p>Price: $400</p>
+            <p>Rem reiciendis sint voluptatibus officiis culpa earum quo esse nobis, vero, ullam repudiandae. Nobis, porro? Placeat libero id nulla quaerat.</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-5</h3>
+            <p>Price: $500</p>
+            <p>Quam molestiae atque vitae quos odit. Voluptas debitis ab ea, exercitationem consequuntur atque nulla! Quo possimus corporis adipisci veritatis natus.</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-6</h3>
+            <p>Price: $600</p>
+            <p>Aliquid, repudiandae velit! Maiores doloremque fuga quibusdam, porro adipisci officia laboriosam odit, numquam, eaque cum assumenda unde iure asperiores eos.</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-7</h3>
+            <p>Price: $700</p>
+            <p>Obcaecati, voluptas eius! Sint, repudiandae odio, quod nemo quisquam exercitationem similique culpa ad deserunt, tempore maxime hic unde voluptatem. Nesciunt!</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-8</h3>
+            <p>Price: $800</p>
+            <p>Quis provident natus ipsum fuga tenetur maxime iusto similique recusandae id reprehenderit. Qui fugit quidem laboriosam ducimus, commodi ipsa aperiam.</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-9</h3>
+            <p>Price: $900</p>
+            <p>Sint magnam obcaecati fuga eveniet possimus eligendi rem. Aperiam reiciendis minima facilis sint amet hic, culpa ex ratione impedit laudantium.</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-10</h3>
+            <p>Price: $1000</p>
+            <p>Deserunt vel, necessitatibus quod facilis aliquam voluptas consectetur nulla voluptatum modi nesciunt ipsam delectus similique odit perferendis voluptatem exercitationem velit.</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-11</h3>
+            <p>Price: $1100</p>
+            <p>Nisi corrupti nemo minima error iusto, alias iure porro ab, voluptates odio rerum id. Amet esse voluptatem consequuntur mollitia sunt?</p>
+            <button>Buy-Now</button>
+        </div>
+        <div class="food">
+            <img src="./Dress for women.avif" alt="">
+            <h3>food-item-12</h3>
+            <p>Price: $1200</p>
+            <p>Veritatis ipsam suscipit, atque voluptatem accusantium autem veniam labore necessitatibus voluptatibus deleniti placeat numquam. Blanditiis quo repellendus modi recusandae aliquid.</p>
+            <button>Buy-Now</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
